@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial' , sans-serif;
+    color: #ffffff;
+    background-image:url(/moon-asteroid-stippling-style-many-600nw-2456685061.webp);
+    background-position: center;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: auto;
+    color: #fff;
+}
+.Logo{
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pages{
+    text-align: end ;
+}
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #111111, #a3998b);
+    text-align:left ;
+    color:silver;
+}
+.hero h3{
+    font-size: 2em;
+    color: white;
+}
+.hero h2 {
+    font-size: 2.5em;
+    color: white;
+    animation: mySlide 3s 1s 1 running ease-out;
+}
+@keyframes mySlide{
+    from{margin-left:100%}
+    to{margin-right: 0% }
+}
+button {
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #111111, #a3998b);
+    color:goldenrod;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:focus {
+    outline: 2px solid #00ff40;
+    outline-offset: 2px;
+} 
+
+button:hover {
+    background:#7c837d;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    margin-top: 2rem;
+}
+.social-icons{
+        margin-top: 10xp;
+    }
+    .social-icons a {
+        color: goldenrod;
+        font-size: 20px;
+        margin: 0 8px;
+        transition: color 0.3s;
+    }
+    .social-icons a:hover {
+        color: silver;
+    }
+/*Mobile devices (max width of 600px)*/
+/*@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }  
+  header h1 {
+    font-size: 24px;
+  }
+}

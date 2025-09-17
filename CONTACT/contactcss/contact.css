@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial' , sans-serif;
+    color: #ffffff;
+    background-image: url(/CONTACT/HD-wallpaper-monochrome-earth-earth-from-space-black-and-white-earth-earth.jpg);
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav ul li a {
+color: rgb(170, 168, 152);
+text-decoration: none;
+}
+nav ul li a:hover {
+    color: #00ff40;
+    text-decoration: underline;
+}
+section{
+  padding: 2rem;
+  margin: 2%;
+  max-width: 100%;
+  background: linear-gradient(135deg, #111111, #a3998b);
+  border-radius: 8px;
+  box-shadow:6px 6px 5px rgb(79, 78, 78);
+}
+form {
+    display: inline-block;
+    width: 80%;
+    max-width: 400px;
+}
+    
+    form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+label {
+        margin-top: 1rem;
+}
+button {
+        margin-top: 1rem;
+        background: linear-gradient(135deg, #a3998b, #111111);
+        color: goldenrod;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+button:focus {
+        outline: 2px solid #00ff40;
+        outline-offset: 2px;
+} 
+    
+button:hover {
+        background: grey;
+}   
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    margin-top: 2rem;
+}
+/*Mobile devices (max width of 600px)*/
+/*@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }  
+  header h1 {
+    font-size: 24px;
+  }
+}
